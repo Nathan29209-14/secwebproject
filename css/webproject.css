@@ -41,6 +41,21 @@ a:hover {
   color: #ff0000; /* Change link color on hover */
 }
 
+.header-title {
+  text-align: center;
+  color: aliceblue;
+}
+
+#treaty-header {
+  font-size: large;
+  font-weight: bold;
+  text-align: left;
+}
+
+.content-container {
+  background-color: rgba(219, 214, 214, 0.827);
+}
+
 .content {
   background-color: rgba(219, 214, 214, 0.827); /* Background color */
   padding: 20px; /* Padding around the content */
