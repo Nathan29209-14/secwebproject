@@ -71,3 +71,14 @@ a:hover {
   display: block;
   margin: 20px auto;
 }
+
+a:focus {
+  outline: 3px solid #0040ff; /* Red outline */
+  background-color: #ff0000; /* Yellow background (optional) */
+}
+
+/* Hover style for navbar links */
+a:hover {
+  color: #6200ff; /* Change text color to red on hover */
+  background-color: #ff0000; /* Change background color to dark gray on hover */
+}
