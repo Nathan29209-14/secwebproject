@@ -57,23 +57,17 @@ a:hover {
 }
 
 .content {
-  background-color: rgba(219, 214, 214, 0.827); /* Background color */
-  padding: 20px; /* Padding around the content */
+  background-color: rgba(219, 214, 214, 0.827);
+  padding: 20px;
 }
 
-.content h3 {
-  text-align: left; /* Aligns the text to the left */
-}
-
-.content h3:first-of-type {
-  color: rgb(237, 253, 253); /* Light color for the first h3 element */
-}
-
-.content h3:nth-of-type(n + 2) {
-  color: rgb(0, 0, 0); /* Black color for the rest of the h3 elements */
+.question-title {
+  color: rgb(237, 253, 253);
+  font-size: larger;
+  text-align: left;
 }
 
 .content img {
-  display: block; /* Makes the image a block element */
-  margin: 20px auto; /* Centers the image with margins on top and bottom */
+  display: block;
+  margin: 20px auto;
 }
