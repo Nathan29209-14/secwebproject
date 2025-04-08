@@ -3,13 +3,13 @@ body {
 }
 
 nav {
-  border: 2px solid black;
+  border: 2px solid black; /* navbar border */
   padding: 10px;
-  background-color: #333;
+  background-color: #333; /* navbar background color */
   color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* to align items to the center */
   transition: background-color 0.3s ease, transform 0.3s ease-in-out; /* Added transition for smooth background-color and scale */
 }
 
@@ -31,7 +31,7 @@ li {
 }
 
 a {
-  color: white;
+  color: white; /* Change the font size and style and color */
   text-decoration: none;
   font-size: x-large;
   font-weight: bold;
@@ -42,27 +42,39 @@ a:hover {
 }
 
 .header-title {
+  /* change the text and color for the title */
   text-align: center;
   color: aliceblue;
 }
 
 #treaty-header {
+  /* change the font size and the style and to align the text to the left */
   font-size: large;
   font-weight: bold;
   text-align: left;
 }
 
 .content-container {
+  /* change the background color */
   background-color: rgba(219, 214, 214, 0.827);
 }
 
 .content {
-  background-color: rgba(219, 214, 214, 0.827);
+  background-color: rgba(
+    219,
+    214,
+    214,
+    0.827
+  ); /* change the background color */
   padding: 20px;
 }
 
 .question-title {
-  color: rgb(237, 253, 253);
+  color: rgb(
+    237,
+    253,
+    253
+  ); /* change the font size to larger and the style and to align the text to the left */
   font-size: larger;
   text-align: left;
 }
