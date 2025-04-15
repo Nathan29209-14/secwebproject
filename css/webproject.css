@@ -104,3 +104,17 @@ a:hover {
   color: #6200ff; /* Change text color to red on hover */
   background-color: #ff0000; /* Change background color to dark gray on hover */
 }
+
+.typography p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+
+.typography1 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
