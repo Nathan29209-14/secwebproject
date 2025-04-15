@@ -9,7 +9,7 @@ School: Ptc
 Date Last Modified: april 10 */
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #d9cab3;
 }
 
 nav {
@@ -66,24 +66,19 @@ a:hover {
 
 .content-container {
   /* change the background color */
-  background-color: rgba(219, 214, 214, 0.827);
+  background-color: #f5e6cc;
 }
 
 .content {
-  background-color: rgba(
-    219,
-    214,
-    214,
-    0.827
-  ); /* change the background color */
+  background-color: #f5e6cc; /* change the background color */
   padding: 20px;
 }
 
 .question-title {
   color: rgb(
-    237,
-    253,
-    253
+    232,
+    255,
+    255
   ); /* change the font size to larger and the style and to align the text to the left */
   font-size: larger;
   text-align: left;
@@ -96,16 +91,17 @@ a:hover {
 
 a:focus {
   outline: 3px solid #0040ff; /* Red outline */
-  background-color: #ff0000; /* Yellow background (optional) */
+  background-color: #a67c52; /* Yellow background (optional) */
 }
 
 /* Hover style for navbar links */
 a:hover {
   color: #6200ff; /* Change text color to red on hover */
-  background-color: #ff0000; /* Change background color to dark gray on hover */
+  background-color: #a67c52; /* Change background color to dark gray on hover */
 }
 
 .typography p {
+  /* targets all <p> elements*/
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
@@ -117,4 +113,18 @@ a:hover {
   font-weight: 400;
   line-height: 1.6;
   font-family: Arial, sans-serif;
+}
+
+.image-left {
+  /* make the image go to the left*/
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between image and text */
+  max-width: 600px;
+}
+
+.image-left img {
+  /* make the image go to the left*/
+  width: 275;
+  height: 250;
 }
