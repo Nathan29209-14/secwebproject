@@ -131,3 +131,23 @@ a:hover {
 .map-center {
   text-align: center;
 }
+
+.line-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.line-text::before,
+.line-text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 5px solid #000000;
+}
+
+.line-text span {
+  padding: 0 20px;
+  font-weight: bold;
+  color: #444;
+}
