@@ -128,3 +128,6 @@ a:hover {
   width: 275;
   height: 250;
 }
+.map-center {
+  text-align: center;
+}
