@@ -129,30 +129,35 @@ a:hover {
   height: 250;
 }
 .map-center {
+  /* it's put the map iin the center*/
   text-align: center;
 }
 
+/* This part puts the line and text in a row and centers them */
 .line-text {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 40px 0;
+  display: flex; /* puts things side by side */
+  align-items: center; /* lines them up in the middle (up and down) */
+  text-align: center; /* centers the text */
+  margin: 40px 0; /* adds space above and below */
 }
 
+/* These make the lines on both sides of the text */
 .line-text::before,
 .line-text::after {
-  content: "";
-  flex: 1;
-  border-bottom: 5px solid #3c3333;
+  content: ""; /* adds an empty line */
+  flex: 1; /* makes the lines take up space equally */
+  border-bottom: 5px solid #3c3333; /* makes a thick dark line */
 }
 
+/* This styles the word in the middle */
 .line-text span {
-  padding: 0 20px;
-  font-weight: bold;
-  color: #444;
+  padding: 0 20px; /* adds space on the left and right of the word */
+  font-weight: bold; /* makes the word bold */
+  color: #444; /* makes the word dark grey */
 }
 
 hr {
+  /* it's makes a border line */
   border: none;
   border-top: 5px solid #3c3333;
   margin: 40px 0;
