@@ -24,9 +24,16 @@ nav {
 }
 
 nav:hover {
-  background-color: #0051ff; /* Change background color on hover */
-  transform: scale(1.05); /* Slightly scale up the navbar on hover */
+  background-color: #0051ff; /* Background color changes on hover */
+  transform: scale(1.05); /* Slightly scale up the navbar */
 }
+
+/* Add hover effect for individual navbar links */
+nav a:hover {
+  color: #ff0000; /* Red color on hover for individual links */
+  background-color: #a67c52; /* Background color change on hover */
+}
+
 
 ul {
   list-style: none;
@@ -47,9 +54,12 @@ a {
   font-weight: bold;
 }
 
+/* Hover style for navbar links */
 a:hover {
-  color: #ff0000; /* Change link color on hover */
+  color: #ff0000; /* Change text color to red on hover */
+  background-color: #a67c52; /* Background color on hover */
 }
+
 
 .header-title {
   /* change the text and color for the title */
@@ -64,10 +74,17 @@ a:hover {
   text-align: left;
 }
 
-.content-container {
-  /* change the background color */
-  background-color: #f5e6cc;
+/* After: Add dividers using ::before and ::after */
+.content-container::before,
+.content-container::after {
+  content: "";  /* Empty content to create a line */
+  display: block;
+  width: 100%;
+  height: 2px; /* Adjust thickness */
+  background-color: #3c3333; /* Line color */
+  margin: 20px 0; /* Adjust space before and after the line */
 }
+
 
 .content {
   background-color: #f5e6cc; /* change the background color */
@@ -85,10 +102,13 @@ a:hover {
   margin: 20px auto;
 }
 
+/* Focus state for links */
 a:focus {
   outline: 3px solid #0040ff; /* Red outline */
-  background-color: #a67c52; /* Yellow background (optional) */
+  background-color: #a67c52; /* Background color */
+  box-shadow: 0 0 10px #0040ff; /* Adding shadow to enhance visibility */
 }
+
 
 /* Hover style for navbar links */
 a:hover {
@@ -96,20 +116,27 @@ a:hover {
   background-color: #a67c52; /* Change background color to dark gray on hover */
 }
 
-.typography p {
-  /* targets all <p> elements*/
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.6;
-  font-family: Arial, sans-serif;
+/* Ensure global typography for readability and consistency */
+body {
+  font-family: Arial, sans-serif; /* Default font family for the entire body */
+  font-size: 16px; /* Base font size */
+  line-height: 1.5; /* Good line spacing for readability */
+  color: #333; /* Text color for better contrast */
 }
 
-.typography1 {
-  font-size: 18px;
+.typography p, .typography1 {
+  font-size: 18px; /* Standard size for paragraphs */
   font-weight: 400;
   line-height: 1.6;
-  font-family: Arial, sans-serif;
+  color: #444; /* Darker gray for better readability */
 }
+
+/* Optional: Apply headings styles globally */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', sans-serif; /* Different font for headings */
+  color: #2c3e50; /* Dark color for headings */
+}
+
 
 .image-left {
   /* make the image go to the left*/
@@ -127,6 +154,7 @@ a:hover {
 .map-center {
   /* it's put the map iin the center*/
   text-align: center;
+  color: goldenrod;
 }
 
 /* This part puts the line and text in a row and centers them */
@@ -174,6 +202,15 @@ hr {
   color: white;
 }
 
+/* Hover effect for dropdown menu */
 li:hover .dropdown-content {
-  display: block;
+  display: block; /* Show dropdown */
+  opacity: 1; /* Make the dropdown fully visible */
+  transition: opacity 0.3s ease; 
+}
+
+
+.link-gold {
+  font-size: large;
+  color: goldenrod;
 }
