@@ -9,11 +9,11 @@ School: Ptc
 Date Last Modified: april 10 */
 
 body {
-  background-color: #d9cab3;
+  background-color: #b2c8df;
 }
 
 nav {
-  border: 2px solid black; /* navbar border */
+  border: 2px solid rgb(0, 0, 0); /* navbar border */
   padding: 10px;
   background-color: #333; /* navbar background color */
   color: white;
@@ -25,12 +25,12 @@ nav {
 
 nav:hover {
   background-color: #0051ff; /* Background color changes on hover */
-  transform: scale(1.05); /* Slightly scale up the navbar */
+  transform: scale(1); /* Slightly scale up the navbar */
 }
 
 /* Add hover effect for individual navbar links */
 nav a:hover {
-  color: #ff0000; /* Red color on hover for individual links */
+  color: #ffebeb; /* Red color on hover for individual links */
   background-color: #a67c52; /* Background color change on hover */
 }
 
@@ -64,7 +64,7 @@ a:hover {
 .header-title {
   /* change the text and color for the title */
   text-align: center;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 
 #treaty-header {
@@ -87,7 +87,7 @@ a:hover {
 
 
 .content {
-  background-color: #f5e6cc; /* change the background color */
+  background-color: #fffdf9; /* change the background color */
   padding: 20px;
 }
 
@@ -211,6 +211,6 @@ li:hover .dropdown-content {
 
 
 .link-gold {
-  font-size: large;
-  color: goldenrod;
+  font-size: small;
+  color: rgb(0, 0, 0);
 }
