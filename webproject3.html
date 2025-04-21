@@ -204,6 +204,31 @@ Date Last Modified: april 17 -->
         </div>
       </div>
     </div>
+      <section>
+            <h2 id="contact-header">Contact Us</h2>
+            <form role="form" aria-labelledby="contact-header" method="POST" action="your-backend-script.php">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" aria-describedby="name-desc" required />
+                <small id="name-desc">Enter your full name.</small>
+                <label for="email">Email:</label>
+                <input
+                type="email"
+                id="email"
+                name="email"
+                aria-describedby="email-desc"
+                required />
+                <small id="email-desc">Enter a valid email address.</small>
+                <label for="message">Message:</label>
+                <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+                aria-describedby="message-desc"></textarea>
+                <small id="message-desc">Please enter your message.</small>
+                <button type="submit">Submit</button>
+            </form>
+            </section>
             <footer style="text-align: center; background-color: #ffffff; padding: 10px;">
       <p>&copy; 2025 Nathan Senanayake | Treaty 1 Web Project</p>
     </footer>
